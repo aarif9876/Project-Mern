@@ -1,0 +1,43 @@
+
+
+
+@media screen and (max-width: 400px) {
+  
+    
+  
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+.intro{
+  background-image: url("C:\Users\AARIF\OneDrive\Desktop\react\React-Landing-Page-Template-master\src\components\Free Vector _ Hand drawn neon gaming photocall.jpg") ;
+  background-repeat: no-repeat;
+  
+  width:100%;
+  
+  
+}
+.uniq{
+  font-family: 'lucida handwriting';
+ color:blue ;
+}
+.contact-item{
+  text-align: center;
+}
+.facbook :hover{
+opacity: 1px;
+background-color: blue;
+}

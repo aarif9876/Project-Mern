@@ -1,0 +1,48 @@
+{
+  "Header": {
+    "title": "Tic-Tac-Toe",
+    "paragraph": "Enjoy a stellar adventure with Xs and Os in space!"
+  },
+  
+  
+  "Services": [
+    {
+     
+      "name": "One Player",
+      "text": "Your goal is to outsmart the computer and achieve victory by forming a line of your symbols before it does."
+    },
+    {
+      
+      "name": "Two Players",
+      "text": "We provide an opportunity for players to engage in friendly competition, strategize, and have fun together."
+    },
+    {
+    
+      "name": "Games",
+      "text": "We also offer additional games that share similarities with ours, enhancing your gaming experience ."
+    },
+    {
+     
+      "name": "Tutorial",
+      "text": "Our comprehensive tutorial provides an in-depth video guideon how to play,ensuring a thorough understanding of the game."
+    },
+    {
+      
+      "name": "Feedback",
+      "text": "We gather feedback from you to enhance our game technology and meet your needs more effectively."
+    },
+    {
+      
+      "name": "Contact",
+      "text": "We get any kind of queries regarding the gaming technology through mail and resolve them from our side ."
+    }
+  ],
+  
+ 
+  "Contact": {
+   
+    "email": "tictactoe@gmail.com"
+
+  }
+ 
+}

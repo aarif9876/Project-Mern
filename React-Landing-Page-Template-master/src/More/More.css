@@ -1,0 +1,37 @@
+.abtbody{
+    background-color: black;
+}
+ .des{
+     text-align: left;
+     margin-left: 10rem;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .para{
+     text-align: left;
+     padding-left: 10rem;
+     padding-right: 7rem;
+     font-family:'Times New Roman', Times, serif;
+     color:white;
+ }
+ 
+ .style{
+     float: left;
+     width: 20%;
+     padding: 10px;
+     margin-left: 2rem;
+     
+ }
+ .abouthhh{
+     color:rgb(255, 255, 255);
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .lookimg:hover{
+     border-radius: 50%;
+     /* filter: grayscale(0%); */
+     
+ }
+ .aboutimg{
+ 
+ box-shadow: 5px 10px 15px rgb(98, 103, 102);
+ width: 1540px;
+ }

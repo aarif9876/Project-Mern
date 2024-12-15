@@ -1,0 +1,36 @@
+.Start{
+    padding: 10px 30px;
+    background-color: #04104f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Start:hover {
+    background-color: #000000;
+}
+
+.welcomebody
+{
+    background-image: url("https://img.freepik.com/free-vector/gradient-hexagonal-background_23-2148961184.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.text {
+    color: rgb(254, 254, 254);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(2px); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+    
+    padding: 90px; 
+}

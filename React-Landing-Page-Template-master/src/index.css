@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.teamname
+{
+  display:flex;
+  justify-content:space-around;
+  padding: auto;
+
+}
+.teamprofile
+{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.Aarif
+{
+  padding-left:80px;
+}
+
+.team1
+{
+  padding-right:20px;
+}
+.team2{
+
+  padding-right: 110px;
+}
+
+.app-container {
+  display: flex;
+  width: 100px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+}
+
+.image-grid
+{
+  display: flex;
+  justify-content: space-around;
+}
+.gameplay 
+{
+  height: 300px;
+  width:250px;
+  padding:30px;
+  border-radius:50px; 
+}
+.gameplay:hover{
+  transform: scale(1.2);
+
+}
+
+.gamebutton{
+  display: flex;
+  justify-content: space-around;
+ 
+  
+ 
+}
+.gbutton
+{
+ 
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: #616467;
+  box-shadow: inset 0 0 0 2px #616467;
+  background-color: transparent;
+  height: 48px;
+  
+}
+.gbutton:hover{
+    color: #fff;
+    background-color: #616467;
+}
+
+
+.account {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.account:hover {
+  background-color: #fff;
+}
+
+.account:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .account {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.bodytic
+{
+  background-color: #222;
+  position: fixed;
+}
+.tic-tac-toe {
+  
+  width: fit-content;
+  margin: 40px auto;
+  text-align: center;
+}
+.tic-tac-toe h1 {
+  color: #eee;
+}
+
+.tic-tac-toe button {
+  padding: 8px 12px;
+  margin: 25px;
+  background: transparent;
+  border: 2px solid #eee;
+  color: #ffffff;
+  width: 150px;
+ 
+  border-radius: 5px;
+  transition: 0.2s;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tic-tac-toe button:hover {
+  background: #eee;
+  color: #222;
+}
+.tic-tac-toe .game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.turn {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  width: fit-content;
+  position: relative;
+  border-radius: 10px;
+}
+
+.turn .square,
+.winner .square {
+  width: 70px;
+  height: 70px;
+  pointer-events: none;
+  border-color: transparent;
+}
+
+.turn .square span.x::before,
+.turn .square span.x::after {
+  background: #222;
+  transition: 0.2s;
+}
+
+.turn .square span.o {
+  transition: 0.2s;
+  border-color: #222;
+}
+
+.turn::after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 100%;
+  top: 0;
+  background: #49ff58;
+  border-radius: 9px;
+  z-index: -1;
+  transition: 0.2s;
+}
+
+.turn.left::after {
+  left: 0;
+}
+
+.turn.left span.o {
+  border-color: #eee;
+}
+.turn.right span.x::before,
+.turn.right span.x::after {
+  background: #eee;
+}
+.turn.right::after {
+  left: 50%;
+}
+
+.winner {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.winner .text {
+  background: #000000;
+  width: 70%;
+  max-width: 500px;
+  height: 300px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.winner .text h2 {
+  font-size: 1em;
+  margin: 2px 0;
+  color: #eee;
+}
+
+.winner .win {
+  margin: 0 auto;
+  width: fit-content;
+  border: 2px solid #eaeaf0;
+  border-radius: 10px;
+  display: flex;
+  gap: 1px;
+}
+
+
+
+.Signupcontainer {
+  margin-top: 150px;
+  margin-left: 430px;
+  opacity:0.5;
+  
+}
+.signbody
+{
+  background-image: url("https://img.freepik.com/free-vector/gradient-hexagonal-background_23-2148961184.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: fixed;
+}
